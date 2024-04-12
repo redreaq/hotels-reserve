@@ -1,0 +1,16 @@
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.card {
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+.card__img {
+    width: 100%;
+}
